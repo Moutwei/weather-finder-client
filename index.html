@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Example</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body>
+      <div id="grandfather-row" class="row">
+        <!-- LEFT side of client -->
+        <div id="logo" class="col-lg-5">
+          <p id="weather-title">Weather Finder</p>
+          <p class="desc">Find out the temperature,</p>
+          <p class="desc">weather conditions, and more...</p>
+        </div>
+
+        <!-- RIGHT side of client -->
+        <div id="info" class="col-lg-7">
+          <div id="info-content"> <!-- div for holing together the info content -->
+            <form class="form col-12">
+              <input type="text" class="clear-input" id="inputCity" placeholder="City">
+              <input type="text" class="clear-input "id="inputCountry" placeholder="Country">
+              <button type="submit" class="btn btn-primary">Get Weather</button>
+            </form>
+            <!-- display info -->
+            <ul class="list-group col-12">
+              <li class="list-group-item clear">Location: <span>Manchester, GB</span></li>
+              <li class="list-group-item clear">Temperature: <span>0.27</span></li>
+              <li class="list-group-item clear">Humidity: <span>93%</span></li>
+              <li class="list-group-item clear-last">Conditions: <span>mist</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
