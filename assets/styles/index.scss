@@ -1,1 +1,101 @@
 @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Gentium+Book+Basic|Roboto|Roboto+Slab&display=swap');
+// LEFT SIDE
+#logo {
+  text-align: center;
+  margin: 0;
+  padding-top: 20%;
+  background-image: url("../../vector-copy.jpg");
+  background-size: 100% 100%;
+}
+#weather-title {
+  font-size: 400%;
+  font-family: 'Roboto Slab', serif;
+}
+.desc {
+  font-style: italic;
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gentium Book Basic', serif;
+}
+// RIGHT SIDE
+#info {
+  display: flex;
+  justify-content: center;
+  background-color: #2B3747;
+  margin: 0;
+  padding: 0;
+}
+#info-content {
+  margin: 0;
+  padding: 0;
+  margin-top: 12%;
+  font-size: 170%;
+}
+.list-group {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  background-color: rgba(0, 0, 0, 0);
+  border-top: rgba(0, 0, 0, 0);
+  border-left: rgba(0, 0, 0, 0);
+  border-right: rgba(0, 0, 0, 0);
+  border-color: grey;
+}
+.clear-last {
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+.clear-input {
+  background-color: rgba(0, 0, 0, 0);
+  border-top: rgba(0, 0, 0, 0);
+  border-left: rgba(0, 0, 0, 0);
+  border-right: rgba(0, 0, 0, 0);
+  border-color: #d2524f;
+}
+#grandfather-row {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.form {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4%;
+}
+.list-group-item {
+  padding-left: 0;
+  margin-right: 300px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #95484f;
+}
+.btn {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border-width: medium;
+  border-color: #4168A2;
+  background-color: #CB554F;
+}
+input {
+  margin-right: 1em;
+  color: white;
+  border-color: purple;
+}
+html, body {
+  margin: 0;
+  padding: 1em;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #BE723F, #973832);
+}
+span {
+  color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: .2;
+}
